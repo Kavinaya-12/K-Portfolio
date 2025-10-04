@@ -1,5 +1,5 @@
 import React,{useState} from "react";
-import 'C:/Users/portfolio/my-portfolio/src/App.css';
+import '../App.css';
 import profileimg from '../assets/profile.jpg';
 import EmailPopup from "./EmailPopup";
 

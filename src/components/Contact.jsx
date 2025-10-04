@@ -1,6 +1,5 @@
-
 import React from 'react';
-import 'C:/Users/portfolio/my-portfolio/src/App.css';
+import '../App.css';
 
 const Contact = () => {
   return (

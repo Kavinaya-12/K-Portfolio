@@ -1,7 +1,7 @@
 import React from "react";
 import { FaCode, FaBrain, FaGlobe, FaLayerGroup, FaDatabase, FaTools } from "react-icons/fa";
 import { motion } from "framer-motion";  
-import 'C:/Users/portfolio/my-portfolio/src/App.css';
+import '../App.css';
 
 const Skills = () => {
   const skillsData = [

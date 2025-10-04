@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { FaInfoCircle } from "react-icons/fa";
 import { motion } from "framer-motion";  
-import 'C:/Users/portfolio/my-portfolio/src/App.css';
+import '../App.css';
 
 const Projects = () => {
   const [flippedIndex, setFlippedIndex] = useState(null);

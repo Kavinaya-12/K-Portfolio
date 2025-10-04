@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import { FaTrophy, FaLaptopCode, FaCode, FaAward, FaMedal, FaGraduationCap } from "react-icons/fa";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import 'C:/Users/portfolio/my-portfolio/src/App.css';
+import '../App.css';
 
 const achievementsData = [
   { icon: <FaTrophy />, title: "CodeChef", description: "Solved above 204 problems in C and Java", link:"https://www.codechef.com/users/kavinaya1201", linkText: "Proof" },

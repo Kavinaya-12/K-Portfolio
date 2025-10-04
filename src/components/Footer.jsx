@@ -1,7 +1,7 @@
 import React ,{useState} from "react";
 import { FaPhone, FaEnvelope } from "react-icons/fa";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
-import 'C:/Users/portfolio/my-portfolio/src/App.css';
+import '../App.css';
 import EmailPopup from "./EmailPopup";
 const Footer = () => {
       const [isEmailOpen, setIsEmailOpen] = useState(false);

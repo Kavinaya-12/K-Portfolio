@@ -1,8 +1,7 @@
 import React, { useRef, useState } from "react";
 import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
-// import "../styles/Contact.css"; 
-import "C:/Users/portfolio/my-portfolio/src/App.css"
+import "../App.css"
 
 const EmailPopup = ({ isOpen, onClose }) => {
   const form = useRef();
