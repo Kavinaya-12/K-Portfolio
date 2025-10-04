@@ -1020,23 +1020,24 @@ background: #fff;
  background: #fff;
   color: #3a3a3d;
   border: 1px solid #3a3a3d;}
+
 /* 🧩 Fix overlap issue in mobile view */
 @media (max-width: 768px) {
   .achievement-card {
-    margin: 20px auto !important;
-    width: 90% !important;
-    min-height: 220px;
+    margin: 0 auto !important;
+    width: 85% !important;
+    min-height: 260px;
   }
 
   .slick-slide {
     display: flex !important;
     justify-content: center !important;
-    align-items: center !important;
   }
 
-  .slick-list {
-    padding: 0 10px !important;
-  }
+  .slick-track {
+display: flex !important;
+   align-items: center !important;
+    }
 }
 
 /* For very small phones */
