@@ -1,8 +1,7 @@
 {
-<<<<<<< HEAD
   "name": "my-portfolio",
+  "version": "1.0.0",
   "private": true,
-  "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -12,6 +11,7 @@
   },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
+    "@fortawesome/fontawesome-free": "^7.1.0",
     "bootstrap": "^5.3.8",
     "emailjs-com": "^3.2.0",
     "framer-motion": "^12.23.12",
@@ -19,6 +19,8 @@
     "react-bootstrap": "^2.10.10",
     "react-dom": "^19.1.1",
     "react-icons": "^5.5.0",
+    "react-slick": "^0.31.0",
+    "slick-carousel": "^1.8.1",
     "typewriter-effect": "^2.22.0"
   },
   "devDependencies": {
@@ -26,28 +28,13 @@
     "@types/react": "^19.1.10",
     "@types/react-dom": "^19.1.7",
     "@vitejs/plugin-react": "^5.0.0",
+    "autoprefixer": "^10.4.12",
     "eslint": "^9.33.0",
     "eslint-plugin-react-hooks": "^5.2.0",
     "eslint-plugin-react-refresh": "^0.4.20",
     "globals": "^16.3.0",
-    "vite": "^7.1.2"
-=======
-  "name": "kavi-portfolio",
-  "version": "1.0.0",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
-  },
-  "dependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
-  },
-  "devDependencies": {
-    "autoprefixer": "^10.4.12",
     "postcss": "^8.4.16",
     "tailwindcss": "^3.1.8",
-    "vite": "^4.0.0"
->>>>>>> a0552d54dd82b80d18cbc3aeb3606c15625c7240
+    "vite": "^7.1.2"
   }
 }
