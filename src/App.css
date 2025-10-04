@@ -1020,3 +1020,63 @@ background: #fff;
  background: #fff;
   color: #3a3a3d;
   border: 1px solid #3a3a3d;}
+/* 🧩 Fix overlap issue in mobile view */
+@media (max-width: 768px) {
+  .achievement-card {
+    margin: 20px auto !important;
+    width: 90% !important;
+    min-height: 220px;
+  }
+
+  .slick-slide {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+
+  .slick-list {
+    padding: 0 10px !important;
+  }
+}
+
+/* For very small phones */
+@media (max-width: 480px) {
+  .achievement-card {
+    padding: 30px 15px;
+    width: 95% !important;
+  }
+
+  .achievement-icon {
+    font-size: 2rem;
+  }
+
+  .achievement-content p {
+    font-size: 0.85rem;
+  }
+}
+.btn-download {
+  background: linear-gradient(135deg, #D90368, #D90368);
+  color: white;
+  border: none;
+  padding: 10px 22px;
+  border-radius: 25px;
+  font-weight: 600;
+  font-size: 0.95rem;
+  cursor: pointer;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.btn-download:hover {
+  transform: scale(1.05);
+ background: #fff;
+  color: #ff1ead;
+    border: 1px solid #ff1ead;
+}
+
+.btn-download i {
+  font-size: 1rem;
+}
