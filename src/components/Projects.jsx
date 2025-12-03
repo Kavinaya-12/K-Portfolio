@@ -31,15 +31,15 @@ const Projects = () => {
       title: "Link-in-Bio Platform",
       tech: "MERN Stack • Custom URL Shortening",
       detail: "Web app where users create profile pages with custom short URLs.",
-      demoLink: "https://demo-linkinbio.com",
-      gitLink: "https://github.com/yourusername/linkinbio",
+      demoLink: "https://linkinbio-mern.vercel.app/",
+      gitLink: "https://github.com/Kavinaya-12/linkinbio-mern",
     },
     {
       title: "AI-Powered Chatbot",
       tech: "Spring Boot • React.js • Gemini AI API • Bootstrap",
       detail: "AI-powered chatbot system to handle user queries in real time.",
       demoLink: "https://demo-chatbot.com",
-      gitLink: "https://github.com/yourusername/chatbot",
+      gitLink: "https://github.com/Kavinaya-12/Gemini_chatbot/tree/main/gemini-chat",
     },
   ];
 

@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import { FaTrophy, FaLaptopCode, FaCode, FaAward, FaMedal, FaGraduationCap } from "react-icons/fa";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+// import '../components/Achievements.css';
 import '../App.css';
 
 const achievementsData = [
